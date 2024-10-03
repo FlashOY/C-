@@ -15,7 +15,7 @@ if (num >= 100 && num <= 999) //if (num > 99 && num < 1000)
 
     int result = firstdigit + seconddigit;
 
-    Console.WriteLine($"Результат сложения первой и последней цифры числа =  + {result}");
+    Console.WriteLine($"Результат сложения первой и последней цифры числа =  {result}");
 }
 else
 {
