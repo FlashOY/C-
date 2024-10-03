@@ -18,6 +18,6 @@ int result = firstdigit + seconddigit;
 Console.WriteLine ($"Результат сложения первой и последней цифры числа = " + {result}); 
 } else 
 {
-    "Введённое число не является трёхзначным"
+    Console.WriteLine ("Введённое число не является трёхзначным");
 }
 
