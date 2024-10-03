@@ -13,4 +13,4 @@ int seconddigit = num %10; //456 = 450 + 6 = 6;
 
 int result = firstdigit + seconddigit; 
 
-Console.WriteLine ("Результат сложения первой и последней цифры числа = " +resut); 
+Console.WriteLine ("Результат сложения первой и последней цифры числа = " +result); 
