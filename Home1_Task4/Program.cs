@@ -14,9 +14,22 @@
 
 Console.WriteLine("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-
-for (int i = 1; i <= number; i += 2)
-{
-Console.Write(i + " ");
-}
  
+// for (int i = 1; i <= number; i += 2)
+// {
+// Console.Write(i + " ");
+// }
+
+if (number > 0)
+{
+    int count = 1; // Начинаем с 1, так как нужно выводить нечетные числа
+    while (count <= number)
+    {
+        Console.Write(count + " ");
+        count += 2; // Увеличиваем на 2, чтобы получить следующее нечетное число
+    }
+}
+else
+{
+    Console.WriteLine("Введите целое положительное число. Отрицательное не подходит.");
+}
