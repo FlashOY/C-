@@ -7,7 +7,7 @@ Console.WriteLine("Hello, World!");
 // a = 2, b = 10 => нет
 // a = 9, b = -3 => да
 // a = -3, b = 9 => нет
-
+//
 
 // string num1str = Console.ReadLine(); 
 // int num = Convert.ToInt32(num1str); 
